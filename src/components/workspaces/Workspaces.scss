@@ -1,0 +1,52 @@
+@import "../../styles/variables";
+
+.drawer-container {
+  > div {
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+  }
+
+  .dashboards-label {
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+  }
+  .get-app-label {
+    span {
+      font-size: 0.9rem;
+    }
+  }
+  .search-field {
+    border: none;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+  .workspace-container {
+    display: flex;
+    flex-direction: column;
+    .makeStyles-root-17:hover > .makeStyles-content-18 {
+      background-color: transparent;
+    }
+    .MuiTreeItem-content.makeStyles-content-18:hover {
+      background-color: $hover-bg-color-ltblue;
+    }
+    .MuiTreeItem-content.makeStyles-content-18:focus,
+    .makeStyles-root-17:focus > .makeStyles-content-18,
+    .makeStyles-root-17.makeStyles-selected-21 > .makeStyles-content-18 {
+      background-color: $focus-bg-color-ltblue;
+      color: #49c6de;
+    }
+    .tree-item {
+      > svg:first-child {
+        color: $white-primary;
+        background-color: rgb(255, 147, 219);
+        padding: 3px;
+        border-radius: 5px;
+      }
+      > svg:last-child {
+        color: #4fcdff;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.sideNav-container {
+  width: 75px;
+  background-color: $sidenav-bg;
+  color: $white-primary;
+  display: flex;
+  flex-direction: column;
+  .sideNav-icons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    > * {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .help-icon {
+      color: $sidenav-bg;
+      background-color: white;
+      border-radius: 50%;
+    }
+  }
+}
