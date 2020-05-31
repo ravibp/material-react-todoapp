@@ -5,29 +5,16 @@ import IconButton from "@material-ui/core/IconButton";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
-import Routes from "../routes/Routes";
 import Grid from "@material-ui/core/Grid";
-import Box from "@material-ui/core/Box";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Divider from "@material-ui/core/Divider";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 
-import TextField from "@material-ui/core/TextField";
 import SearchIcon from "@material-ui/icons/Search";
 import TreeView from "@material-ui/lab/TreeView";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import TreeItem from "@material-ui/lab/TreeItem";
 import HomeIcon from "@material-ui/icons/Home";
 import StyledTreeItem from "./StyledTreeItem";
-import DeleteIcon from "@material-ui/icons/Delete";
-import Label from "@material-ui/icons/Label";
-import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
-import InfoIcon from "@material-ui/icons/Info";
-import ForumIcon from "@material-ui/icons/Forum";
-import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
@@ -143,11 +130,12 @@ export default function Workspaces({ open, handleDrawerClose }) {
                   key={text}
                   className={index === 0 ? "dashboards-label" : "get-app-label"}
                 >
-                  <ListItemText primary={text} /> 
+                  <ListItemText primary={text} />
                   <ListItemIcon>
                     {index === 1 ? (
                       <>
                         <img
+                          alt="google-play-icon"
                           src="https://img.icons8.com/color/48/000000/google-play.png"
                           style={{ height: "25px" }}
                         />

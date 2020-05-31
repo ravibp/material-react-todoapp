@@ -44,7 +44,7 @@ export default function Header() {
         >
           <AccountCircleIcon />
           <div className="zoomCall-icon">
-            <img src="https://www.vectorlogo.zone/logos/zoomus/zoomus-icon.svg" />
+            <img alt="zoomcall-icon" src="https://www.vectorlogo.zone/logos/zoomus/zoomus-icon.svg" />
             Start Zoom Call
           </div>
           <div className="people-icon">

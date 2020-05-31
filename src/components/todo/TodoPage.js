@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import ReactDataGrid from "react-data-grid";
 import { Editors } from "react-data-grid-addons";
 import DateComponent from "../common/DateComponent";
@@ -12,7 +11,7 @@ const {
 } = require("react-data-grid-addons");
 const {
   Draggable: {
-    Container: DraggableContainerRow,
+    // Container: DraggableContainerRow,
     RowActionsCell,
     DropTargetRowContainer,
   },
